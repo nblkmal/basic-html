@@ -1,0 +1,41 @@
+/* tag reference */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: bisque;
+}
+
+.title {
+    height: 200px;
+    color: darkred;
+    border-style: solid;
+    padding: 20px;
+    margin-top: 30px;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+}
+
+.container {
+    border-style: solid;
+    background-color: azure;
+}
+/* id reference */
+#heading2 {
+    color: darkorchid;
+}
+
+/* class reference */
+.ordered-list {
+    color: darkorange;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
